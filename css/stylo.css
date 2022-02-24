@@ -1,0 +1,189 @@
+/* GENERAL */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff url(../images/background.jpg) repeat fixed top left;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* HEADER */
+
+.header {
+    padding: 0 300px;
+    background-color: #1a212c55;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.header-under {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.image {
+    width: 800px;
+    height: auto;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 6px 16px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.text {
+    padding: 20px 100px 20px 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-shrink: 0;
+    gap: 20px;
+    padding: 6px 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6px 16px;
+    margin: 0;
+}
+
+.web {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+/* INFO TAB */
+
+.info {
+    padding: 100px 300px;
+    background-color: #ffffff55;
+    text-align: center;
+}
+
+.webe {
+    color: Black;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0 0 50px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff00;
+    border: none;
+}
+
+p {
+    max-width: 200px;
+}
+
+.carde {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* THIRD TAB */
+
+.third {
+    background-color: #E5E7EB85;
+    padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    text-shadow: 50px black;
+}
+
+.quote>div {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/* FOURTH */
+
+.fourth {
+    padding: 100px 300px;
+    background-color: #ffffff55;
+}
+
+.lol {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btner {
+    border-radius: 10px;
+    border: 2px solid white;
+    align-self: center;
+}
+
+.hell {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #2f302e;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
